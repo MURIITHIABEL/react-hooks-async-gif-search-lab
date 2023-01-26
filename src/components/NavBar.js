@@ -1,18 +1,11 @@
 import React from "react";
 
-function NavBar({ color, title }) {
-  const colors = {
-    black: "navbar-inverse",
-    white: "navbar-default",
-  };
-
+function NavBar() {
+  
   return (
-    <nav className={`navbar ${colors[color]}`}>
-      <div className="container-fluid">
-        <div className="navbar-header">
-          <span className="navbar-brand">{title}</span>
-        </div>
-      </div>
+    <nav style={{background:'black'}}>
+          <h1>Giphy Search</h1>
+       
     </nav>
   );
 }
