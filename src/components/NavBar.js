@@ -4,7 +4,8 @@ function NavBar() {
   
   return (
     <nav style={{background:'black'}}>
-          <h1>Giphy Search</h1>
+
+          <h1>Giphy Search.</h1>
        
     </nav>
   );
