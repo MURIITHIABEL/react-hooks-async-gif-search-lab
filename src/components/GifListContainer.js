@@ -4,7 +4,7 @@ import GifSearch from './GifSearch'
 const GifListContainer = () => {
 
     const[gif, setGif] = useState([])
-    const [search, setSearch] = useState("dolphins");
+    const [search, setSearch] = useState("");
     
     const apiKey='xTv6tNR8dKpi5rcVa9elPwUm8MbMHDWu';
 
